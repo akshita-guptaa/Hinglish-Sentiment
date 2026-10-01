@@ -38,9 +38,11 @@ Hinglish-Sentiment/
 
 ## 🚀 Setup & Installation
 
-### Step 1: Clone or Navigate to the Project Directory
-```powershell
-cd c:\Users\gupta\Desktop\projects\Hinglish-Sentiment
+### Step 1: Clone the repository
+
+```bash
+git clone https://github.com/akshita-guptaa/Hinglish-Sentiment.git
+cd Hinglish-Sentiment
 ```
 
 ### Step 2: Create and Activate a Virtual Environment
