@@ -51,6 +51,10 @@ Input:
     "id": 5,
     "text": "Bhai restaurant ka ambience aur butter chicken dono ekdum bawa the, full paisa vasool!"
   }
+  {
+    "id": 6,
+    "text": "Sahi hai yaar."
+  }
 ]
 
 Output:
@@ -115,6 +119,15 @@ Output:
     ],
     "confidence": 0.96,
     "notes": "'bawa' is Mumbai Hindi slang meaning excellent/fire; 'paisa vasool' means worth every penny."
+  }
+  {
+    "id": 6,
+    "normalized": "That's great, friend.",
+    "sentiment": "positive",
+    "sarcasm": false,
+    "aspects": [],
+    "confidence": 0.55,
+    "notes": "Very short with no context. 'Sahi hai' usually means approval but can also be sarcastic or resigned, so confidence is low."
   }
 ]
 
