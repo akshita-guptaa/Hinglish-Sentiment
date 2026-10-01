@@ -1,0 +1,18 @@
+# Configuration settings for Hinglish Normalizer + Sentiment Analysis pipeline
+
+# Gemini model configuration
+model_name: "gemini-3.8-flash"
+fallback_models:
+  - "gemini-3.7-flash"
+  - "gemini-3.5-flash"
+  - "gemini-flash-latest"
+temperature: 0.2
+
+# Batch processing parameters
+batch_size: 10
+retry_limit: 1
+
+# File paths
+input_path: "data/input.csv"
+output_path: "output/results.csv"
+prompt_path: "prompts/normalize.txt"
