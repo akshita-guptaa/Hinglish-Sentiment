@@ -15,6 +15,17 @@ For each input item in the provided JSON array, return an object with the follow
 7. "notes": A brief note if any slang, colloquial idiom, or code-mixed phrasing was ambiguous or has multiple interpretations; otherwise "None".
 
 -----------------------
+RULES:
+-----------------------
+- Input may be in Roman script, Devanagari, or mixed. Handle all of them.
+- Sarcasm: if the praise contradicts the situation described (e.g. "best service ever" after a long delay), set sarcasm to true and give the sentiment the writer actually means (usually negative).
+- Mixed opinions (positive and negative aspects together) -> overall sentiment "neutral", and list each aspect separately.
+- Questions, requests for advice, and plain facts with no opinion -> "neutral".
+- Ambiguous words: choose the meaning that fits the context and mention it in "notes". Examples: "kal" (yesterday or tomorrow), "bas" (enough or just), "sahi" (correct or great), "ghanta" (hour, or a rude "nothing").
+- Confidence: 0.9 or above only when the meaning is clear. Use 0.5 to 0.7 when the text is very short, sarcastic, or ambiguous.
+- Never invent aspects that the text does not mention.
+
+-----------------------
 FEW-SHOT EXAMPLES:
 -----------------------
 
