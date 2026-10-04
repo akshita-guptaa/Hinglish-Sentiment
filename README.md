@@ -26,7 +26,9 @@ Hinglish-Sentiment/
 │
 ├── prompts/
 │   └── normalize.txt      # Prompt template with instructions and 5 few-shot examples
-│
+├── eval/
+│   ├── test_set.csv     # Hand-labeled test sentences (sentiment + sarcasm)
+│   └── evaluate.py      # Computes sentiment and sarcasm accuracy
 ├── data/
 │   └── input.csv          # Sample input CSV containing raw Hinglish texts
 │
@@ -127,9 +129,9 @@ You can customize parameters in `config.yaml` without changing code:
 ```yaml
 model_name: "gemini-3.8-flash"  # Primary model
 fallback_models:               # Backup models if primary encounters errors
-  - "gemini-2.5-flash"
-  - "gemini-1.5-flash"
-  - "gemini-1.5-pro"
+  - "gemini-3.7-flash"
+  - "gemini-3.5-flash"
+  - "gemini-flash-latest"
 temperature: 0.2               # Lower temperature ensures deterministic JSON output
 batch_size: 10                 # Number of rows processed per Gemini API call
 retry_limit: 1                 # Retries once if JSON validation fails
@@ -166,7 +168,7 @@ prompt_path: "prompts/normalize.txt"
    - When Gemini experiences temporary demand spikes (`503 UNAVAILABLE`) or rate limits (`429 RESOURCE_EXHAUSTED`), the pipeline pauses and retries up to 4 times with exponential backoff delays (`2s`, `4s`, `8s`, `16s`).
 
 4. **Multi-Model Failover (`fallback_models`):**
-   - If the primary model (`gemini-3.8-flash`) remains unavailable after all backoff retries, the pipeline automatically switches to backup models listed in `config.yaml` (e.g. `gemini-1.5-flash`, `gemini-1.5-pro`).
+   - If the primary model (`gemini-3.8-flash`) remains unavailable after all backoff retries, the pipeline automatically switches to backup models listed in `config.yaml` (e.g. `gemini-3.7-flash"`,`gemini-3.5-flash`).
 
 5. **Clean Error Handling & No Fake Data:**
    - In single-text UI mode: If all retries and fallback models fail, the app does **not** generate a fake neutral card; instead, it displays: *"The AI service is busy, please try again in a minute."*
