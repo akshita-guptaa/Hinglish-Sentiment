@@ -1,11 +1,5 @@
 """
 Evaluation script for the Hinglish Normalizer + Sentiment pipeline.
-
-Runs the real pipeline (same prompt, config and model as the app) on a
-hand-labeled test set and reports sentiment and sarcasm accuracy.
-
-Run from the project root:
-    python eval/evaluate.py
 """
 import os
 import sys
@@ -13,7 +7,6 @@ import sys
 import pandas as pd
 from dotenv import load_dotenv
 
-# Allow importing processor.py from the project root
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 
@@ -27,19 +20,16 @@ from processor import (  # noqa: E402
 TEST_PATH = os.path.join(ROOT, "eval", "test_set.csv")
 RESULT_PATH = os.path.join(ROOT, "eval", "eval_results.csv")
 
-
 def to_bool(value):
     """Convert True/False, 'true'/'false' strings into a real boolean."""
     return str(value).strip().lower() == "true"
-
 
 def main():
     load_dotenv(os.path.join(ROOT, ".env"))
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         sys.exit("[ERROR] GEMINI_API_KEY not found in .env")
-
-    # Load settings exactly like the main pipeline does
+ 
     os.chdir(ROOT)
     config = load_config("config.yaml")
     prompt_template = load_prompt_template(config["prompt_path"])

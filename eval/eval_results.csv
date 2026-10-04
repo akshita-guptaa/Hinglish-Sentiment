@@ -1,0 +1,56 @@
+text,expected_sentiment,expected_sarcasm,pred_sentiment,pred_sarcasm,confidence
+"Bhai ye sofa bahut comfortable hai, neend aa jati hai baithte hi",positive,False,positive,False,0.96
+Hotel ke room me gandi smell aa rahi thi aur AC bhi kharab tha,negative,False,negative,False,0.98
+"Waah, bijli ka bill dekha, is mahine bhi sirf double aaya, kya baat hai sarkar",negative,True,negative,True,0.95
+"Mujhe ye jacket size M me chahiye, available hai kya?",neutral,False,neutral,False,0.95
+"Teacher ne bahut achhe se samjhaya, ab concept clear ho gaya",positive,False,positive,False,0.97
+"Great, phir se wifi gaya, meeting ke beech me hi. Perfect timing!",negative,True,negative,True,0.96
+Ye mobile ka screen bright hai lekin charging bahut slow hai,neutral,False,neutral,False,0.95
+"सर्विस बहुत अच्छी थी, स्टाफ ने मदद की",positive,False,positive,False,0.98
+"Order cancel karne ke baad bhi paise kat gaye, ghatiya system",negative,False,negative,False,0.98
+"Shaadi ka khana lajawab tha, mithai to kamaal ki",positive,False,positive,False,0.97
+Bus ka kiraya kal se badh raha hai,neutral,False,neutral,False,0.95
+"Oh wow, 5 star hotel me cockroach mila, kya luxury hai!",negative,True,negative,True,0.97
+Is gaane ki beat mast hai par lyrics kuch khaas nahi,neutral,False,neutral,False,0.96
+"App ka new design ekdum clean hai, use karne me maza aaya",positive,False,positive,False,0.96
+"Delivery wale bhaiya ne call hi nahi uthaya, 3 baar try kiya",negative,False,negative,False,0.95
+Kya aap bata sakte ho ye course kitne mahine ka hai?,neutral,False,neutral,False,0.95
+"Ekdum waste of money, ek hafte me hi handle toot gaya",negative,False,negative,False,0.98
+"Bohot badhiya kaam kiya team ne, deadline se pehle project ready",positive,False,positive,False,0.97
+"Haan haan, bahut helpful customer care hai, 10 baar call karo tab uthate hain",negative,True,negative,True,0.97
+Printer ka ink jaldi khatam ho jata hai but print quality solid hai,neutral,False,neutral,False,0.95
+Aaj ka mausam kaafi thanda hai,neutral,False,neutral,False,0.95
+"Gym ke trainer bahut rude hain, koi baat sunta hi nahi",negative,False,negative,False,0.98
+"Pizza garam aur fresh aaya, cheese bhi bharpoor tha",positive,False,positive,False,0.97
+"Wah, naya software aaya aur sab settings reset ho gayi. Thank you so much!",negative,True,negative,True,0.98
+Train 6 ghante late thi aur washroom me paani bhi nahi tha,negative,False,negative,False,0.99
+"Ye sabzi thodi namkeen hai, baaki theek hai",neutral,False,neutral,False,0.92
+"Bhai tu to genius nikla, exam me fail hone ka bhi record bana diya",negative,True,negative,True,0.96
+Cafe ki coffee aur music dono relax karne wale the,positive,False,positive,False,0.98
+"Bas yaar, ab aur nahi chalega ye phone",negative,False,negative,False,0.9
+"Mera package kal tak aa jayega, tracking me yahi dikha raha hai",neutral,False,neutral,False,0.94
+Photos ki quality ke naam pe sirf dhokha hai,negative,False,negative,False,0.95
+"Internet speed to rocket jaisi hai, ek video load hone me 10 minute lagte hain",negative,True,negative,True,0.98
+Ye book padhne me mazedaar hai aur kahani bhi kasi hui hai,positive,False,positive,False,0.95
+"Office ka canteen average hai, na zyada accha na bura",neutral,False,neutral,False,0.97
+"रिफंड तुरंत मिल गया, धन्यवाद टीम",positive,False,positive,False,0.98
+"Barish me raste ka haal bura hai, gaadi phans gayi",negative,False,negative,False,0.95
+"Sahi mein, aise doctor ko to award milna chahiye, 3 ghante wait karwaya aur 2 minute me bhej diya",negative,True,negative,True,0.98
+"Is plan me data aur calling dono unlimited hain, price bhi kam hai",positive,False,positive,False,0.97
+Kal ka exam postpone ho gaya hai,neutral,False,neutral,False,0.9
+Shoes ka colour pasand aaya par sole bahut hard hai,neutral,False,neutral,False,0.96
+theek hai,neutral,False,neutral,False,0.6
+"Chalta hai yaar, kya kar sakte hain",neutral,False,neutral,False,0.8
+"Bohot tez delivery, bas 12 din lage",negative,True,negative,True,0.98
+"Shukriya, aapne to meri zindagi aasaan kar di, ab 3 baar login karna padta hai",negative,True,negative,True,0.97
+Kya hi bolu is movie ke baare me 🙄,negative,False,negative,False,0.9
+"Mst h bhai, ekdm paisa vasool 🔥",positive,False,positive,False,0.95
+Delivry late thi lekin packing achi thi,neutral,False,neutral,False,0.98
+Isse accha to purana wala phone tha,negative,False,negative,False,0.92
+Wow 😍😍 ye to kamaal nikla,positive,False,positive,False,0.95
+"Manager sahab ne fir se meeting cancel kar di, kitne dayalu hain",negative,True,negative,True,0.96
+Ghanta acha hai ye phone,negative,False,negative,True,0.92
+Order ka status: out for delivery,neutral,False,neutral,False,0.98
+"थैंक यू, बहुत बढ़िया सर्विस थी, फिर से आऊंगा",positive,False,positive,False,0.99
+"Pehle din hi screen me line aa gayi, kya quality hai bhai, salute hai company ko",negative,True,negative,True,0.97
+"Jo bhi ho, ye restaurant dobara nahi jaunga",negative,False,negative,False,0.96

@@ -39,3 +39,18 @@ text,expected_sentiment,expected_sarcasm
 "Is plan me data aur calling dono unlimited hain, price bhi kam hai",positive,False
 "Kal ka exam postpone ho gaya hai",neutral,False
 "Shoes ka colour pasand aaya par sole bahut hard hai",neutral,False
+"theek hai",neutral,False
+"Chalta hai yaar, kya kar sakte hain",neutral,False
+"Bohot tez delivery, bas 12 din lage",negative,True
+"Shukriya, aapne to meri zindagi aasaan kar di, ab 3 baar login karna padta hai",negative,True
+"Kya hi bolu is movie ke baare me 🙄",negative,False
+"Mst h bhai, ekdm paisa vasool 🔥",positive,False
+"Delivry late thi lekin packing achi thi",neutral,False
+"Isse accha to purana wala phone tha",negative,False
+"Wow 😍😍 ye to kamaal nikla",positive,False
+"Manager sahab ne fir se meeting cancel kar di, kitne dayalu hain",negative,True
+"Ghanta acha hai ye phone",negative,False
+"Order ka status: out for delivery",neutral,False
+"थैंक यू, बहुत बढ़िया सर्विस थी, फिर से आऊंगा",positive,False
+"Pehle din hi screen me line aa gayi, kya quality hai bhai, salute hai company ko",negative,True
+"Jo bhi ho, ye restaurant dobara nahi jaunga",negative,False
