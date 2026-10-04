@@ -121,8 +121,8 @@ The app opens in your browser with two tabs:
 - **Single text:** type Hinglish text or click a sample button, then click **Analyze Text**. You get the original and normalized text side by side, a color-coded sentiment badge, a sarcasm indicator, a confidence bar, aspect tags, and slang notes.
 - **Upload CSV:** upload a CSV with a text column. A progress bar shows batch progress, followed by summary counts, a sentiment distribution chart, and a button to download the results as CSV.
 
-![Input CSV File](docs/images/third.png)
-![CSV Dashboard](docs/images/fourth.png)
+![Input CSV File](docs/images/third.jpeg)
+![CSV Dashboard](docs/images/fourth.jpeg)
 
 
 ### Option 2: Command line
