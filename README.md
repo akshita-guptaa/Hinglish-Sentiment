@@ -122,7 +122,8 @@ The app opens in your browser with two tabs:
 - **Upload CSV:** upload a CSV with a text column. A progress bar shows batch progress, followed by summary counts, a sentiment distribution chart, and a button to download the results as CSV.
 
 ![Input CSV File](docs/images/third.jpeg)
-![CSV Dashboard](docs/images/fourth.jpeg)
+![CSV Dashboard-1](docs/images/fourth.jpeg)
+![CSV Dashboard-2](docs/images/five.jpeg)
 
 
 ### Option 2: Command line
