@@ -1,0 +1,41 @@
+text,expected_sentiment,expected_sarcasm
+"Bhai ye sofa bahut comfortable hai, neend aa jati hai baithte hi",positive,False
+"Hotel ke room me gandi smell aa rahi thi aur AC bhi kharab tha",negative,False
+"Waah, bijli ka bill dekha, is mahine bhi sirf double aaya, kya baat hai sarkar",negative,True
+"Mujhe ye jacket size M me chahiye, available hai kya?",neutral,False
+"Teacher ne bahut achhe se samjhaya, ab concept clear ho gaya",positive,False
+"Great, phir se wifi gaya, meeting ke beech me hi. Perfect timing!",negative,True
+"Ye mobile ka screen bright hai lekin charging bahut slow hai",neutral,False
+"सर्विस बहुत अच्छी थी, स्टाफ ने मदद की",positive,False
+"Order cancel karne ke baad bhi paise kat gaye, ghatiya system",negative,False
+"Shaadi ka khana lajawab tha, mithai to kamaal ki",positive,False
+"Bus ka kiraya kal se badh raha hai",neutral,False
+"Oh wow, 5 star hotel me cockroach mila, kya luxury hai!",negative,True
+"Is gaane ki beat mast hai par lyrics kuch khaas nahi",neutral,False
+"App ka new design ekdum clean hai, use karne me maza aaya",positive,False
+"Delivery wale bhaiya ne call hi nahi uthaya, 3 baar try kiya",negative,False
+"Kya aap bata sakte ho ye course kitne mahine ka hai?",neutral,False
+"Ekdum waste of money, ek hafte me hi handle toot gaya",negative,False
+"Bohot badhiya kaam kiya team ne, deadline se pehle project ready",positive,False
+"Haan haan, bahut helpful customer care hai, 10 baar call karo tab uthate hain",negative,True
+"Printer ka ink jaldi khatam ho jata hai but print quality solid hai",neutral,False
+"Aaj ka mausam kaafi thanda hai",neutral,False
+"Gym ke trainer bahut rude hain, koi baat sunta hi nahi",negative,False
+"Pizza garam aur fresh aaya, cheese bhi bharpoor tha",positive,False
+"Wah, naya software aaya aur sab settings reset ho gayi. Thank you so much!",negative,True
+"Train 6 ghante late thi aur washroom me paani bhi nahi tha",negative,False
+"Ye sabzi thodi namkeen hai, baaki theek hai",neutral,False
+"Bhai tu to genius nikla, exam me fail hone ka bhi record bana diya",negative,True
+"Cafe ki coffee aur music dono relax karne wale the",positive,False
+"Bas yaar, ab aur nahi chalega ye phone",negative,False
+"Mera package kal tak aa jayega, tracking me yahi dikha raha hai",neutral,False
+"Photos ki quality ke naam pe sirf dhokha hai",negative,False
+"Internet speed to rocket jaisi hai, ek video load hone me 10 minute lagte hain",negative,True
+"Ye book padhne me mazedaar hai aur kahani bhi kasi hui hai",positive,False
+"Office ka canteen average hai, na zyada accha na bura",neutral,False
+"रिफंड तुरंत मिल गया, धन्यवाद टीम",positive,False
+"Barish me raste ka haal bura hai, gaadi phans gayi",negative,False
+"Sahi mein, aise doctor ko to award milna chahiye, 3 ghante wait karwaya aur 2 minute me bhej diya",negative,True
+"Is plan me data aur calling dono unlimited hain, price bhi kam hai",positive,False
+"Kal ka exam postpone ho gaya hai",neutral,False
+"Shoes ka colour pasand aaya par sole bahut hard hai",neutral,False
