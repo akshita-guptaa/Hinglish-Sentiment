@@ -26,9 +26,11 @@ Hinglish-Sentiment/
 │
 ├── prompts/
 │   └── normalize.txt      # Prompt template with instructions and 5 few-shot examples
+|
 ├── eval/
 │   ├── test_set.csv     # Hand-labeled test sentences (sentiment + sarcasm)
 │   └── evaluate.py      # Computes sentiment and sarcasm accuracy
+|
 ├── data/
 │   └── input.csv          # Sample input CSV containing raw Hinglish texts
 │
