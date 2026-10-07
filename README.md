@@ -1,5 +1,7 @@
 # Hinglish Normalizer + Sentiment Analysis
 
+## Akshita Gupta - 23FE10CDS00499
+
 An NLP pipeline and Streamlit web app, built with Python and the Google Gemini API, that takes **Hinglish** (Hindi-English code-mixed) tweets and reviews, converts them into clean standard English, and extracts sentiment, sarcasm, and aspect-level insights.
 
 > Example: `yaar ye phone bakwaas hai` → *"Man, this phone is rubbish."* → **negative**
